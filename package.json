@@ -1,0 +1,15 @@
+{
+  "name": "mieterinformationssystem",
+  "version": "1.0.0",
+  "description": "Mieterinformationssystem - Online App",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "postinstall": "cd backend && npm install",
+    "build": "cd frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev"
+  }
+}
